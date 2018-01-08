@@ -388,6 +388,7 @@ ul.nostyle i {
   background: #e5e5e5;
   color: #64686d;
   position: relative;
+  margin: 5px;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
