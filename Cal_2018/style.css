@@ -1,0 +1,172 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:arial,verdana;
+	font-size:20px;
+	color:#161616;
+	background:#ddd;
+}
+ul{list-style:none;}
+a{
+	text-decoration:none;
+	color:black;
+}
+.over{overflow:hidden;}
+.container{
+	width:1200px;
+	margin:0 auto;
+	
+	color:black;
+}
+.container1{
+	width:100%;
+	margin:0 auto;
+	background:#ddd;
+}
+/* header one area */
+.header_1 {
+    background: #000;
+    padding: 5px 7px 0px 11px;
+}
+.brac{
+	float:left;
+}
+.brac img {
+    height: 54px;
+    width: 157px;
+}
+.social_icon{
+	float:right;
+}
+.social_icon .fa{
+    border-radius: 50px;
+    height: 33px;
+    line-height: 30px;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 35px;
+	cursor:pointer;
+}
+.fa.fb.fa-facebook {
+    background: blue;
+    color: #fff;
+}
+.fa.tw.fa-twitter {
+    background: #00A8EC;
+    color: #fff;
+}
+.fa.gool.fa-google-plus {
+    background: #fff;
+    color: red;
+}
+/* header section>logo, main menu, site heading(travel is beautiful) */
+.header {
+    background: url(img/sumon.jpg) no-repeat ;
+    position: relative;
+    width: 100%;
+    height: 764px;
+
+}
+img {
+
+}
+.banner {
+    width: 35%;
+    float: left;
+    margin: 188px 33px;
+    line-height: 26px;
+}
+.banner h1 {
+    line-height: 298px;
+    text-transform: uppercase;
+    font-family: times;
+    text-align: center;
+    text-shadow: 3px 1px 4px #000;
+    line-height: 48px;
+    color: red;
+    font-size: 60px;
+    font-style: italic;
+    line-height: 61px;
+}
+.banner p {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 23px;
+    font-size: 18px;
+    margin: 9px;
+    opacity: .6;
+    padding: 24px 25px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 2px 0px blue;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+/* main area> all calender (just copy and past)*/
+.main_item {
+	text-align:center;
+}
+.main_item h1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    padding: 10px 0;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 4px 2px 2px #000;
+}
+.main_item h1:hover{
+	background:lightblue;
+	color:black;
+}
+table {
+    border-radius: 8px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding: 11px 0px 17px 24px;
+        padding-top: 11px;
+        padding-right: 0px;
+        padding-bottom: 17px;
+        padding-left: 24px;
+    width: 100%;
+}
+th{
+	color:green;
+	font-weight:bold;
+}
+.table_item1{
+	float:left;
+	width:47%;
+}
+.table_item2{
+	float:right;
+	width:48%;
+}
+/* footer area>copyright,ending logo(travel), admin panel */
+.footer_menu{
+	color:#000;
+	text-align:center;
+	padding:20px 0;
+	font-family:MV Boli;
+}
+.copyright{
+	float:left;
+}
+.ending_logo{
+	float:right;
+}
+.admin{
+	color:#000;
+	font-family:MV Boli;
+	font-size:20px;
+}
+.admin:hover{
+	color:#d03958;
+}
