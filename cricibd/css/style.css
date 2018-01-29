@@ -1,0 +1,229 @@
+.vertical-menu ul,
+.vertical-menu li{
+  margin: 0;
+  padding:0;
+}
+
+nav{
+    float: left;
+    writing-mode: tb;
+    writing-mode: tb-rl;
+    writing-mode: vertical-lr;
+    writing-mode: sideways-lr;
+    padding: 29px 42px;
+}
+.vertical-menu ul {
+  display: table;
+  height: 26em;
+  text-align: center;
+}
+.vertical-menu li {
+  display: table-cell;
+  padding:5px 0;
+
+}
+.vertical-menu ul li a {
+	color: #444;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+nav{
+	position:relative;
+}
+a:hover,a:focus { 
+	text-decoration: none
+}
+nav::after {
+	background: hsl(0, 0%, 82%) none repeat scroll 0 0;
+	content: "";
+/* 	height:800px; */
+	position: absolute;
+	top: -95px;
+	width: 1px;
+}
+/*header-aria*/
+.header-aria {
+	background: url(../img/header/header-bg.jpg) no-repeat center center / cover;
+	height:720px;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 8px solid #000;
+}
+.team-title h4{
+	font-weight: bold;
+	color: #444;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 85px;
+	font-family: 'time new roman';
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.video-icon{
+	position:relative;
+}
+.video-title {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+.h3, h3 {
+	font-size: 1.75rem;
+	font-weight: bold;
+	color: #444;
+}
+p {
+    color: #777;
+}
+.video-title h2 a{
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*mortaza-aria*/
+.mortaza-aria{
+	background: url(../img/mortaza/mashrafe-bg.jpg) no-repeat center center / cover;
+	height: 886px;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 8px solid #000;
+}
+.vertical-menu-right{}
+.vertical-menu-right ul,
+.vertical-menu-right li{
+  margin: 0;
+  padding:0;
+}
+
+.vertical-menu-right nav {
+    float: right;
+    writing-mode: tb;
+    writing-mode: tb-rl;
+    writing-mode: vertical-lr;
+    writing-mode: sideways-lr;
+    padding: 29px 42px;
+}
+.vertical-menu ul {
+  display: table;
+  height: 26em;
+  text-align: center;
+}
+.vertical-menu-right li {
+  display: table-cell;
+  padding:5px 0;
+
+}
+.vertical-menu-right ul li a {
+	color: #444;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.vertical-menu-right nav{
+	position:relative;
+	
+}
+a:hover,a:focus { 
+	text-decoration: none
+}
+.vertical-menu-right nav::before {
+	background: hsl(0, 0%, 82%) none repeat scroll 0 0;
+	content: "";
+/* 	height:700px; */
+	position: absolute;
+	top: 95px;
+	width: 1px;
+}
+
+/*sakib aria*/
+.sakib-aria{
+	background: url(../img/sakib/Cric-.png) no-repeat center center / cover;
+	height: 700px;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 8px solid #000;
+}
+
+
+/*tamim*/
+.tamim-aria{
+	background: url(../img/tamim/tamim-bg.png) no-repeat center center / cover;
+	height: 846px;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 8px solid #000;
+}
+
+
+
+
+/*all player*/
+.all-player {
+	background:#0F151F;
+	height:100%;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 8px solid #000;
+}
+.pl-img {
+	border: 2px solid #444;
+	text-align: center;
+	border-radius: 14px;
+	margin: 10px 18px;
+	padding: 10px;
+	height: 206px;
+	color: #ddd;
+}
+.pl-img img{
+	width:80px;
+	height:100px;
+}
+.pl-title {
+	padding: 10px 0px;
+	color: #777;
+}
+.pl-img a {
+	padding:7px 0;
+	color:#128e1b;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+
+/*mustafiz-aria*/
+.mustafiz-aria{
+	background:#0F151F;
+	height:100%;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 8px solid #000;
+}
+
+
+
+
+
+.footer-aria{
+	background:#0F151F;
+		height:100%;
+	width: 100%;
+}
+.fotter-top{
+	background: url(../img/Cric-PSD.png) no-repeat center center / cover;
+	height: 549px;
+	width: 100%;
+	padding-top:30px;
+}
+.footer{
+	background:#0F151F;
+	color:#444;
+	padding:10px;
+}
+
